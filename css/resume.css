@@ -44,7 +44,7 @@ h2 {
 }
 
 .list-social-icons a:hover {
-  color: #BD5D38;
+  color:  blue;
 }
 
 .list-social-icons a .fa-lg {
@@ -56,7 +56,7 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #336600;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -131,17 +131,50 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #336600 !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #336600 !important;
 }
 
 a {
-  color: #BD5D38;
+  color: blue;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: blue;
+}
+
+.summary {
+  margin: 5px;
+  padding: 10px;
+  color: black;
+  border: solid black 2px;
+  background: #DCDCDC;
+  max-width: 85%;
+  text-align: center;
+}
+.citihikes {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  min-width: 300px;
+  /* min-width:  */
+  /* border: solid green 2px; */
+
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.project-image {
+  width: 90%;
+  /* width: 50%;
+  min-width: 300px; */
+  border: solid black 2px;
 }
